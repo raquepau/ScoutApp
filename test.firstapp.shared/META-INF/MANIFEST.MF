@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: test.firstapp.shared
+Bundle-SymbolicName: test.firstapp.shared;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: test.firstapp.shared.Activator
+Export-Package: test.firstapp.shared,
+ test.firstapp.shared.services,
+ test.firstapp.shared.services.common.text
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
